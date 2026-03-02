@@ -1,0 +1,16 @@
+name: Prueba
+
+run-name: Probando...
+
+on: push
+
+jobs:
+  Prueba:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hola
+        run: echo "Hola"
+      - name: repo
+        uses: actions/checkout@v6
+      - name: Listar
+        run: ls-l
