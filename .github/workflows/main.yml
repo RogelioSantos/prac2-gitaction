@@ -13,4 +13,4 @@ jobs:
       - name: repo
         uses: actions/checkout@v6
       - name: Listar
-        run: ls-l
+        run: ls -al
